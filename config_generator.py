@@ -9,8 +9,7 @@ DOMAINS = ["nima.nscl.ir", "bpb.yousef.isegaro.com"]
 PORTS = [443]
 
 # کانفیگ پایه (الگو)
-BASE_CONFIG = "vless://83d88a91-1cf2-4cb1-b9fd-e2d8ed4f15a1@104.17.122.54:443?encryption=none&security=tls&sni=proj1.mamado4479.workers.dev&fp=qq&insecure=0&allowInsecure=0&type=ws&host=proj1.mamado4479.workers.dev&path=%2F%3Fed%3D2048#CFNEW
-"
+BASE_CONFIG = "vless://83d88a91-1cf2-4cb1-b9fd-e2d8ed4f15a1@104.17.122.54:443?encryption=none&security=tls&sni=proj1.mamado4479.workers.dev&fp=qq&insecure=0&allowInsecure=0&type=ws&host=proj1.mamado4479.workers.dev&path=%2F%3Fed%3D2048#CFNEW"
 
 def get_ips(domain):
     """تبدیل دامنه به لیست آی‌پی‌های فعال"""
